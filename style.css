@@ -23,6 +23,8 @@ background-attachment: contain;
 background-size: cover;
 display: flex;
 flex-flow: column nowrap;
+/* border-radius: 10px; */
+/* margin: 1px; */
 
 }
     .menu{
@@ -54,7 +56,7 @@ flex-flow: column nowrap;
                 font-size: 14px;
                 text-transform: uppercase;
                 padding: 0 10px;
-                letter-spacing: 4px;
+                letter-spacing: 2px;
             }
             .nav a:hover{
                 color: #032a6c;
@@ -136,6 +138,8 @@ flex-flow: column nowrap;
 .section{
     background: rgb(1, 51, 74);
     display: flex;
+    /* border-radius: 10px; */
+    /* margin: 1px; */
 }
     .articulos{
         background: rgb(1, 51, 74);
@@ -151,9 +155,11 @@ flex-flow: column nowrap;
             margin: 10px 10px  0 0px;
             flex: 1 1 45%;
             background: #031a2f;
+            border-radius: 10px;
         }
         .article img{
             width: 100%;
+            border-radius: 15px;
         }
         article a{
             color: #fff;
@@ -162,6 +168,7 @@ flex-flow: column nowrap;
             background: #000;
             margin: 10px 0;
             display: inline-block;
+            border-radius: 5px;
         }
         article a:hover{
             background: #032a6c
@@ -210,9 +217,77 @@ flex-flow: column nowrap;
 .footer{
     background: rgb(1, 51, 74);;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     margin-top: 10px;
+    /* border-radius: 10px; */
+    /* margin: 1px; */
 }
+    .footer-2{
+        background: rgb(1, 51, 74);
+        width: 100%;
+        height: 280px;
+        display: flex;
+        overflow: hidden;
+        padding: 2rem 8%;
+        /* background-color: #0e0e0e; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        bottom: 0;
+        left: 0;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    }
+    .social-icons-container, .footer-menu-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+    .social-icon{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        border: 1px solid #f2f2f2;
+        background-image: url(Images/FacebookBlanco.png);
+        background-position: center;
+        background-size: 40%;
+        background-repeat: no-repeat;
+        margin:1rem;
+    }
+    .social-icon:hover{
+        background-color: #121212;
+        filter: invert(1);
+    }
+    .social-icon:nth-of-type(2){
+        background-image: url(Images/InstagramBlanco.png);
+    }
+    .social-icon:nth-of-type(3){
+        background-image: url(Images/TwitterBlanco.png);
+    }
+    .social-icon:nth-of-type(4){
+        background-image: url(Images/LinkedinBlanco.png);
+    }
+    .footer-menu-container{
+        list-style-type: none;
+        color: #ffffff;
+        font-size: 18px;
+    }
+    .menu-item{
+        margin: 1rem 1.5rem;
+        cursor: pointer;
+        color: #ffffff;
+    }
+    .menu-item:hover{
+        color: #04607a;
+    }
+    .copyright{
+        color: #ffffff;
+        opacity: 0.3;
+        text-align: center;
+    }
     .pie{
         /*background: #0C134F;*/
         text-align: center;
