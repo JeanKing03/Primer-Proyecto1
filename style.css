@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -275,6 +278,20 @@ margin: 1px;
         color: #ffffff;
     }
     .menu-item:hover{
+        color: #04607a;
+    }
+    .footer-scroll{
+        list-style-type: none;
+        color: #ffffff;
+        font-size: 10px;
+        display: flex;
+    }
+    .scroll-item{
+        margin: 70px;
+        color: #ffffff;
+        opacity: 0.6;
+    }
+    .scroll-item:hover{
         color: #04607a;
     }
     .copyright{
