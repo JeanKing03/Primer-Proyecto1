@@ -43,7 +43,6 @@ margin: 1px;
                 color: #ffffff;
                 font-size: 30px;
                 font-weight: 600;
-                /*-webkit-text-stroke: 0.5px rgb(110, 110, 138);*/ 
             }
             .logo a:hover{
                 color: #032a6c;
@@ -198,7 +197,6 @@ margin: 1px;
             letter-spacing: 2px;
         }
     .aside{
-        /*background: #0C134F; */
         flex:1 1 auto;
         margin: 10px 5px 10px 0;
     }
@@ -211,9 +209,6 @@ margin: 1px;
         padding: 10px;
         text-transform: uppercase;
     }
-        .publicidad{
-            /*background: #1D267D;*/
-        }
 .footer{
     background: rgb(1, 51, 74);;
     display: flex;
@@ -230,7 +225,6 @@ margin: 1px;
         display: flex;
         overflow: hidden;
         padding: 2rem 8%;
-        /* background-color: #0e0e0e; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -289,7 +283,7 @@ margin: 1px;
         text-align: center;
     }
     .pie{
-        /*background: #0C134F;*/
+        background: #000000;
         text-align: center;
     }
     .pie a {
