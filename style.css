@@ -23,8 +23,8 @@ background-attachment: contain;
 background-size: cover;
 display: flex;
 flex-flow: column nowrap;
-/* border-radius: 10px; */
-/* margin: 1px; */
+border-radius: 10px;
+margin: 1px;
 
 }
     .menu{
@@ -138,8 +138,8 @@ flex-flow: column nowrap;
 .section{
     background: rgb(1, 51, 74);
     display: flex;
-    /* border-radius: 10px; */
-    /* margin: 1px; */
+    border-radius: 10px;
+    margin: 1px;
 }
     .articulos{
         background: rgb(1, 51, 74);
@@ -220,8 +220,8 @@ flex-flow: column nowrap;
     flex-flow: column;
     justify-content: center;
     margin-top: 10px;
-    /* border-radius: 10px; */
-    /* margin: 1px; */
+    border-radius: 10px;
+    margin: 1px;
 }
     .footer-2{
         background: rgb(1, 51, 74);
@@ -337,11 +337,11 @@ flex-flow: column nowrap;
         bottom: 150px;
         margin-left: 10px;
         padding: 8px 16px;
-        background:#5b91b1;
+        background:#1a77aa;
         color: #fff;
         border: none;
         border-radius: 5px;
-        font-size: 16px;
+        font-size: 15px;
     }
 @media all and (max-width: 750px) {
     .articulos{
@@ -354,6 +354,9 @@ flex-flow: column nowrap;
     .nav a{
         font-size: 25px;
     }
+    .copyright{
+        position: relative;
+        bottom: 20px;
     }
     .email{
         position: relative;
@@ -375,12 +378,14 @@ flex-flow: column nowrap;
         bottom: 150px;
         margin-left: 10px;
         padding: 7px 11px;
-        background:#5b91b1;
+        background:#1a77aa;
         color: #fff;
         border: none;
         border-radius: 5px;
-        font-size: 16px;
+        font-size: 14px;
     }
+    }
+
     @media all and (max-width: 458px){
         .text-email{
             position: relative;
@@ -414,11 +419,11 @@ flex-flow: column nowrap;
         bottom: 115px;
         margin-left: 10px;
         padding: 4px 10px;
-        background:#5b91b1;
+        background:#1a77aa;
         color: #fff;
         border: none;
         border-radius: 5px;
-        font-size: 16px;
+        font-size: 12px;
     }
     .texto-principal{
         position: relative;
