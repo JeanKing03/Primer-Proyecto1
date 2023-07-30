@@ -260,7 +260,7 @@ margin: 1px;
         border: 1px solid rgb(7, 28, 29);
         padding: 10px;
         color: #fff;
-        font-size: 14px;
+        font-size: 20px;
         line-height: 1.5;
     }
 .footer{
@@ -404,6 +404,9 @@ margin: 1px;
         border: none;
         border-radius: 5px;
         font-size: 15px;
+    }
+    .in-adicio {
+        font-size: 14px;
     }
 
 @media all and (max-width: 750px) {
@@ -586,6 +589,9 @@ margin: 1px;
         bottom: 30px;
         height: 380px;
     }
+    .in-adicio {
+        font-size: 9px;
+    }
 }
 @media all and (max-width: 298px){
     .nav a{
@@ -610,9 +616,9 @@ margin: 1px;
         height: 25px;
     }
 }
-@media all and (max-width: 281px){
+@media all and (max-width: 290px){
     .in-adicio {
-        font-size: 5;
+        font-size: 7px;
     }
 }
 }
